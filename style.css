@@ -1,0 +1,79 @@
+/* Fond général */
+.stApp{
+    background-color:#F5F7FA;
+}
+
+/* En-tête */
+.header{
+    background:linear-gradient(90deg,#0F4C81,#1565C0);
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.header h1{
+    color:white;
+    font-size:42px;
+    margin:0;
+}
+
+.header p{
+    color:white;
+    font-size:20px;
+}
+
+/* Titre */
+h2,h3{
+    color:#0F4C81 !important;
+}
+
+/* Texte */
+p, li{
+    color:#222222 !important;
+    font-size:18px;
+}
+
+/* Cartes */
+div[data-testid="stMetric"]{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+/* Barre latérale */
+section[data-testid="stSidebar"]{
+    background:#0F4C81;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+/* Champs de texte (login, formulaires...) */
+div[data-testid="stTextInput"] input {
+    background-color: white !important;
+    color: #222222 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+}
+
+/* Labels des champs (Nom d'utilisateur, Mot de passe...) */
+div[data-testid="stTextInput"] label {
+    color: #0F4C81 !important;
+    font-weight: 600 !important;
+}
+
+/* Bouton "Se connecter" */
+div[data-testid="stFormSubmitButton"] button {
+    background-color: #0F4C81 !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+    font-weight: 600 !important;
+}
+
+div[data-testid="stFormSubmitButton"] button:hover {
+    background-color: #1565C0 !important;
+}
